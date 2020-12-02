@@ -42,8 +42,8 @@ cd src
 git clone --recursive https://github.com/Tossy0423/yolov4-for-darknet_ros.git
 
 # Download weights
-cd darknet_ros/darknet_ros/yolo_network_config/weights
-wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
+#cd darknet_ros/darknet_ros/yolo_network_config/weights
+#wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
 
 # Install uvc-camera for using webcam for testing
 sudo apt install ros-$distro_lowercase-uvc-camera
